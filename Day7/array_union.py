@@ -1,0 +1,38 @@
+#using set 
+
+# def union_sorted_array(arr1, arr2):
+#     set1 = set(arr1)
+#     set2 = set(arr2)
+#     result_set = set1.union(set2)
+#     return list(result_set)
+
+
+# def union_sorted_arrays(arr1, arr2):
+#     union = []
+#     i = j = 0
+#     while i < len(arr1) and j < len(arr2):
+#         if arr1[i] < arr2[j]:
+#             union.append(arr1[i])
+#             i += 1
+#         elif arr1[i] > arr2[j]:
+#             union.append(arr2[j])
+#             j += 1
+#         else:
+#             union.append(arr1[i])
+#             i += 1
+#             j += 1
+
+#     while i < len(arr1):
+#         union.append(arr1[i])
+#         i += 1
+#     while j < len(arr2):
+#         union.append(arr2[j])
+#         j += 1   
+
+#     return union
+
+
+
+# arr1 = [1, 3, 4, 5, 7]
+# arr2 = [2, 3, 5, 3344]
+# print(union_sorted_array(arr1, arr2)) 
